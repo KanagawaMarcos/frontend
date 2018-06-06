@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Whatsapp</title>
+  </head>
+  <body>
+    <!-- Nav bar -->
+      <nav class="nav-extended teal darken-3">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo left">Whatsapp</a>
+          <ul id="nav-mobile" class="right">
+            <li><a href=""><i class="material-icons">search</i></a></li>
+            <li><a class='dropdown-trigger' data-target='dropdown1' href=""><i class="material-icons">more_vert</i></a></li>
+          </ul>
+        </div>
+        <div class="nav-content">
+          <ul class="tabs tabs-transparent">
+            <li class="tab"><a href="#test1"><i class="material-icons">camera_alt</i></a></li>
+            <li class="tab"><a class="active" href="#test1">Chats</a></li>
+            <li class="tab"><a href="#test2">Status</a></li>
+            <li class="tab"><a href="#test4">Calls</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Messages -->
+      <ul class="collection" style="margin-top:0;">
+        <li class="collection-item avatar">
+          <img src="marcos.jpg" alt="" class="circle">
+          <span class="title">Marcos Costa</span>
+          <p class="truncate">Hey man, did you do homework already? Because I need some help with it.</p>
+        </li>
+      </ul>
+      <!-- -->
+  </body>
+  <footer>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script type="text/javascript">
+      // Settings button inicialization
+      $('.dropdown-trigger').dropdown();
+    </script>
+  </footer>
+</html>
