@@ -1,0 +1,21 @@
+header{
+	display: grid;
+	grid-template-areas:"logo navbar";
+	grid-template-columns: 1fr 1fr;
+}
+
+.logo{
+	grid-area: logo;
+	display: flex;
+	align-items: center;
+}
+
+nav{
+	align-self: center;
+	grid-area: navbar;
+}
+
+nav ul{
+	display: flex;
+	align-items: center;
+}

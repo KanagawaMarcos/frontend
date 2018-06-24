@@ -1,19 +1,11 @@
-.logo{
-	display: flex;
-	align-items: center;
-}
-
 .logo img{
 	margin: 0vw 1vw;
 }
 
 .logo h1{
-	font-size: 2vw;
+/*	font-size: 2vw;*/
 }
-
 nav ul{
-	display: flex;
-	align-items: center;
 	list-style-type: none;
 }
 
