@@ -1,0 +1,11 @@
+button{
+	font-weight: bold;
+	font-size: .8rem;
+
+	border: 1px solid #ccc;
+	border-radius: 6px;
+
+	background: none;
+
+	padding: .7rem 1rem;
+}
