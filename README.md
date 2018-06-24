@@ -1,4 +1,4 @@
-# Welcome to my frontend showcase
+# Frontend Showcase
 
 Hi! I'm **Marcos Costa** and currently **Frontend** developer. I use this repository to showcase some of my work, to study CSS and to drop some project that " I've done " following tutorials on youtube. 
 So, if you want to see what I'm capable of, just look at the list bellow, pick up some project that you're interested in and enjoy!
