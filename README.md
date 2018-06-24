@@ -16,4 +16,4 @@ So, if you want to see what I'm capable of, just look at the list bellow, pick u
 **Here's how it works**:  I don't like to unorganized code, so a separated this repository in 3 main types of folders; *CSS, Framework, and Tutorials.*
 1. To check my work using purely css: **CSS**
 2. To check my work using any framework: **Framework Name**
-3. To check project that I've made following tutorials: **Tutorials**
+3. To check some project that I've done following tutorials: **Tutorials**
