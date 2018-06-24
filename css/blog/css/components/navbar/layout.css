@@ -11,11 +11,12 @@ header{
 }
 
 nav{
-	align-self: center;
 	grid-area: navbar;
+	align-self: center;
 }
 
 nav ul{
 	display: flex;
 	align-items: center;
+	justify-content: flex-end;
 }

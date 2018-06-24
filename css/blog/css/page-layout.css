@@ -1,5 +1,10 @@
 *{
 	font-family: 'Roboto';
+	color: #4C4647;
+}
+
+html,body{
+	height: 100%;
 }
 
 h1,h2,h3{
@@ -28,10 +33,9 @@ header{
 
 main{
 	grid-area: main;
-	background: #d4eadb;
 }
 
 footer{
 	grid-area: footer;
-	background: #bbbbbb;
+	/*background: #bbbbbb;*/
 }
