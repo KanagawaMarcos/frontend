@@ -9,7 +9,7 @@ article{
 	"info"
 	"post"
 	;
-	grid-template-rows: 1fr .5fr 3fr;
+	grid-template-rows: .5fr .5fr 3fr;
 }
 
 article .title{

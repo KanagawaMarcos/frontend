@@ -16,6 +16,15 @@ a {
 	color: black;
 }
 
+img{
+	max-width: 70%;
+}
+
+p{
+	text-align: justify;
+	
+}
+
 body{
 	display: grid;
 	grid-template-areas:

@@ -1,3 +1,6 @@
+article .title{
+	margin-top: 4rem;
+}
 article .info ul li{
 	margin: 0 1rem;
 	color: #B0A5A3;
@@ -5,4 +8,8 @@ article .info ul li{
 
 article .info a{
 	color: #FE7D8E;
+}
+
+article .post p{
+	padding: 0 15%;
 }
