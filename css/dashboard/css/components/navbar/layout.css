@@ -1,0 +1,22 @@
+header {
+  display: grid;
+  grid-template-areas:"logo main secondary";
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+header span{
+  grid-area: logo;
+}
+
+.main-navbar{
+  grid-area: main;
+}
+
+.secondary-navbar{
+  grid-area: secondary;
+}
+
+.main-navbar ul, .secondary-navbar ul {
+  display: flex;
+
+}
