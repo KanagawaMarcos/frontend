@@ -1,0 +1,39 @@
+body{
+  background: linear-gradient(180deg, rgba(0, 53, 150, 0.81) 0%, #01225D 100%);
+  background-attachment: fixed;
+}
+
+button{
+  position: absolute;
+  width: 190.16px;
+  height: 45.15px;
+
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+  border-radius: 32px;
+  border: none;
+}
+
+button span{
+  width: 191px;
+  height: 46px;
+  left: 85px;
+  top: 455px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 18px;
+  text-align: center;
+
+}
+
+.white {
+  background: #fff;
+  color: #01225D;
+}
+
+.blue {
+  background: #01225D;
+  color: #ffffff;
+}
