@@ -30,8 +30,10 @@ td {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 80%;
+    text-align: center;
+    width: 40%;
     color: #fff;
+    padding: 2rem;
 }
 
 .cards{
