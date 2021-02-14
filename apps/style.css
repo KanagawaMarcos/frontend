@@ -39,13 +39,14 @@ li {
 }
 
 .blue-circle {
-    background: linear-gradient(120deg, #CBDFEF 0%, #7AA2CE 100%);
-    width: 160px;
-    height: 160px;
+    background: linear-gradient(180deg, #dae7fa 0%, #bfd4f2 50%);
+    width: 280px;
+    height: 280px;
     border-radius: 50%;
 
     position: absolute;
     top: 60px;
+    right: -120px;
 }
 
 .card {
@@ -78,4 +79,4 @@ li {
 }
 .footer p {
     text-align: center;
-}
+}4
