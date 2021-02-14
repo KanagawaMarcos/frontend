@@ -5,6 +5,7 @@ body {
     margin: 0;
     font-family: 'Noto Sans JP', sans-serif;
     background: linear-gradient(120deg, #CBDFEF 0%, #7AA2CE 100%);
+    min-height: 100vh;
 }
 
 ul {
@@ -22,7 +23,6 @@ li {
 }
 
 .cards{
-    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
