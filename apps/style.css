@@ -33,9 +33,10 @@ li {
 }
 
 .img-container {
-    position: relative;
     min-height: 360px;
     min-width: 140px;
+    overflow: hidden;
+    position: relative;
 }
 
 .img-container::before {
@@ -44,7 +45,6 @@ li {
     width: 280px;
     height: 280px;
     border-radius: 50%;
-    
     position: absolute;
     overflow-x: hidden;
     top: 62px;
