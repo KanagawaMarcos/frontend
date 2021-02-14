@@ -36,12 +36,14 @@ li {
     position: relative;
     min-height: 360px;
     min-width: 140px;
+    overflow: hidden;
+    
 }
 
 .img {
-    height: 360px;
+    height: 320px;
     position: absolute;
-    top: -20px;
+    top: 0px;
     left: 8px;
 }
 
@@ -52,8 +54,9 @@ li {
     border-radius: 50%;
 
     position: absolute;
-    top: 60px;
-    right: -120px;
+    overflow-x: hidden;
+    top: 62px;
+    right: -140px;
 }
 
 .card {
