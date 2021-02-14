@@ -38,6 +38,16 @@ li {
     left: 8px;
 }
 
+.blue-circle {
+    background: linear-gradient(120deg, #CBDFEF 0%, #7AA2CE 100%);
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 60px;
+}
+
 .card {
     display: grid;
     grid-template-columns: 1fr 1fr;
