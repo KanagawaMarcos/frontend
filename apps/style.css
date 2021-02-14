@@ -24,8 +24,17 @@ li {
     border-radius: 32px;
 }
 
+.img {
+    position: relative;
+    min-height: 400px;
+    min-width: 140px;
+}
+
 .flower-img {
     height: 400px;
+    position: absolute;
+    top: -30px;
+    
 }
 
 .card {
@@ -42,7 +51,7 @@ li {
     grid-area: title;
     display: flex;
     align-items: center;
-    padding-left: 1.4rem;
+    justify-content: center;
 }
 
 .features{
@@ -55,4 +64,7 @@ li {
 
 .footer{
     grid-area: footer;
+}
+.footer p {
+    text-align: center;
 }
