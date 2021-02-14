@@ -3,12 +3,8 @@
 body {
     padding: 0;
     margin: 0;
-    background: linear-gradient(120deg, #CBDFEF 0%, #7AA2CE 100%);
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: 'Noto Sans JP', sans-serif;
+    background: linear-gradient(120deg, #CBDFEF 0%, #7AA2CE 100%);
 }
 
 ul {
@@ -17,6 +13,19 @@ ul {
 
 li {
     padding: 1rem 0;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.cards{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card {
