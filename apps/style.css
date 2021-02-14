@@ -24,10 +24,12 @@ li {
     border-radius: 32px;
     box-shadow: 4px 6px 4px 2px rgba(0, 0, 0, 0.1);
     transition: .2s;
+    margin: 1.4rem;
 }
 
 .card:hover{
     transform: translateY(-1rem);
+    transform: scale(1.1);
 }
 
 .img-container {
