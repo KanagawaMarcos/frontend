@@ -16,6 +16,12 @@ li {
     padding: 1rem 0;
 }
 
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
 .header{
     display: flex;
     justify-content: center;
