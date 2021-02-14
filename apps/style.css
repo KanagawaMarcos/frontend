@@ -26,15 +26,16 @@ li {
 
 .img {
     position: relative;
-    min-height: 400px;
+    min-height: 360px;
     min-width: 140px;
 }
 
 .flower-img {
-    height: 400px;
+    height: 360px;
     position: absolute;
-    top: -30px;
-    
+    top: -20px;
+    left: 8px;
+
 }
 
 .card {
