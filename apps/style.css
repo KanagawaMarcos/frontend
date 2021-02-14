@@ -36,8 +36,19 @@ li {
     position: relative;
     min-height: 360px;
     min-width: 140px;
-    overflow: hidden;
+}
+
+.img-container::before {
+    content: ' ';
+    background: linear-gradient(180deg, #dae7fa 0%, #bfd4f2 50%);
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
     
+    position: absolute;
+    overflow-x: hidden;
+    top: 62px;
+    right: -140px;
 }
 
 .img {
@@ -45,18 +56,6 @@ li {
     position: absolute;
     top: 0px;
     left: 8px;
-}
-
-.blue-circle {
-    background: linear-gradient(180deg, #dae7fa 0%, #bfd4f2 50%);
-    width: 280px;
-    height: 280px;
-    border-radius: 50%;
-
-    position: absolute;
-    overflow-x: hidden;
-    top: 62px;
-    right: -140px;
 }
 
 .card {
