@@ -6,6 +6,10 @@ body {
     font-family: 'Noto Sans JP', sans-serif;
     background: linear-gradient(120deg, #CBDFEF 0%, #7AA2CE 100%);
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 ul {
@@ -25,6 +29,8 @@ td {
 .header{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    width: 80%;
     color: #fff;
 }
 
