@@ -25,13 +25,13 @@ li {
     box-shadow: 4px 6px 4px 2px rgba(0, 0, 0, 0.1);
 }
 
-.img {
+.img-container {
     position: relative;
     min-height: 360px;
     min-width: 140px;
 }
 
-.flower-img {
+.img {
     height: 360px;
     position: absolute;
     top: -20px;
